@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 30vh 30vw;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.transition {
+  transition-property: width;
+  transition-duration: 1s;
+}
+.transition:hover {
+  width: 50%;
+}
